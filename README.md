@@ -232,7 +232,7 @@ Now when you navigate to a view the router will know what controller it needs to
             .state('locations',{
                 url:'/locations',
                 templateUrl: "../views/locations.html",
-                controller: 'lacationsCtrl',
+                controller: 'locationsCtrl',
                 controllerAs: 'vm'
             });
 ```
